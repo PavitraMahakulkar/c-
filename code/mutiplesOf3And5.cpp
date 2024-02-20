@@ -7,12 +7,17 @@
 using namespace std;
 
 int multiplesOf3Or5(int n){
-    if(n==2) return 0;
-    if((n-1)%5==0) n+=n-1;
-    if((n-1)%3==0) n+=n-1;
-    int s=n;
-    multiplesOf3Or5(n-1);
-    return s;
+    // if(n=0){return 0;}
+    // else if(n%3==0 || n%5==0){
+    //     return n+multiplesOf3Or5(n-1);
+    // }
+    // else{
+    //     return multiplesOf3Or5(n-1);
+    // }
+    int a=(n/2)*(2*3+(n-1)*3);
+    int b=(n/2)*(2*5+(n-1)*5);
+    int c=(n/2)*(2*15+(n-1)*15);
+    return (a+b)-c;
 }
 int main()
 {

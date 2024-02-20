@@ -12,7 +12,7 @@ int main()
         int s=0;
         for(int i=1;i<=n;i++){
             s+=i;
-            if((i+1)%10) 
+            if((i+1)%10) ;
         }
     }
 }

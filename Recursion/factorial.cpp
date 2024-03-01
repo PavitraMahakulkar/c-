@@ -11,6 +11,6 @@ void factUpto(int n){
 }
 int main()
 {
-factUpto(5);
+factUpto(6);
 return 0;
 }

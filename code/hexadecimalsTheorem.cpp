@@ -9,10 +9,5 @@ int main()
 {
     int n;
     cin>>n;
-    vector<int> v(1000000005,0);
-    fibo(n,v);
-    for(int n:v){
-        cout<<n<<" ";
-    }
-    not done
+    cout<<0<<" "<<0<<" "<<n;
 }

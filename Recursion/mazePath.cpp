@@ -34,6 +34,6 @@ int maze2(int row,int col){
 int main()
 {
     printPath(0,0,2,2,"");
-    //cout<<maze(0,0,2,2);
+    cout<<maze(0,0,2,2)<<endl;
     cout<<maze2(3,3); // Here, initial sr and sc is 1.
 }
